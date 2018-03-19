@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Muli';
+  font-family: 'Montserrat';
   font-weight: 800 !important;
 }
 
@@ -61,12 +61,12 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background-color: skyblue !important;
+  background-color: peachpuff !important;
   background: linear-gradient(0deg, #004085 0%, #36a7a7 100%);
   background-image: url(../img/mourad-saadi-314319.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 
