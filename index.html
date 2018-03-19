@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- theme fonts -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- theme style -->
@@ -29,10 +30,13 @@
               <a id="about" class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/valmack/"><i class="fab fa-linkedin"></i></a>
+              <a class="nav-link" href="https://www.linkedin.com/in/valmack/" title="https://www.linkedin.com/in/valmack/"><i class="fab fa-linkedin"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://github.com/thevaleriemack"><i class="fab fa-github"></i></a>
+              <a class="nav-link" href="https://github.com/thevaleriemack" title="https://github.com/thevaleriemack"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://valeriemack.quora.com/" title="https://valeriemack.quora.com/"><i class="fab fa-quora"></i></a>
             </li>
           </ul>
         </div>
@@ -40,15 +44,27 @@
     </nav>
     <div id="splash">
       <button type="button" id="closeSplash">
-        <i class="far fa-times-circle"></i>
+        <i class="fas fa-times"></i>
       </button>
       <h1>About Me</h1>
       <p>Master's in Information Science, Cornell University 2017
       <br/>
       BA Information Science, Cornell University 2016</p>
-      <p>I live and work in the San Francisco Bay Area. <br/> I spend my free time coding, playing the drums, running, hiking, reading about blockchain, writing, and listening to podcasts.</p>
-      <h5>I know about: React/Redux, Node.js, D3.js, JavaScript, PostgreSQL, Python</h5>
-      <h5>I want to learn more about: Blockchain, Audio streaming/transcoding</h5>
+      <p>I live and work in the San Francisco Bay Area. <br/> I spend my free time coding, playing the drums, running, hiking, reading textbooks, journaling, and listening to podcasts.</p>
+      <h5>I know:</h5>
+      <ul>
+        <li>ReactJS, React Native and Redux</li>
+        <li>D3.js</li>
+        <li>Python</li>
+        <li>PostgreSQL</li>
+        <li>HTML5, CSS3</li>
+      </ul>
+      <h5>I am learning:</h5>
+      <ul>
+        <li>Solidity DApps</li>
+        <li>Blockchain</li>
+        <li>Audio streaming/transcoding</li>
+      </ul>
     </div>
     <header id="header" class="masthead text-center text-white">
       <div class="masthead-content">
@@ -61,13 +77,35 @@
         </div>
       </div>
     </header>
+    <section style="background-color:peachpuff;">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="p-3">
+            <h5>Open Source Contributions</h5>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="p-3">
+            <a href="https://github.com/PursuanceProject">The Pursuance Project</a>
+            <p>An end-to-end encrypted task management platform.</p>
+          </div>
+          <div class="p-3">
+            <a href="https://github.com/maebert/themostdangerouswritingapp">The Most Dangerous Writing App</a>
+            <p>A writing app that deletes all progress if you stop typing for more than five seconds.</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <section>
       <div class="container">
+        <div class="row align-items-center" style="color: white">
+          _
+        </div>
         <div class="row align-items-center"> 
           <div class="order-lg-1">
             <div class="p-3">
               <h2 class="display-5">Mix Tape Map</h2>
-              <p><a href="https://d3js.org/">D3.js</a> | <a href="https://developer.spotify.com/">Spotify Web API</a></p>
+              <p>D3.js | Spotify Web API</p>
               <p>Using the Spotify API, I developed an app to build mixtapes. Users can search for an artist and select songs to add to their playlist based on recommendations. The recommendations are displayed in a node-based graph. Each node is a top song by an artist related to the last artist on the playlist. The popularity of the song is indicated by the size of the node.</p>
               <p class="text-center"><img class="img-fluid" src="img/mixtapemap.png" alt="Mix Tape Map screenshot"></p>
             </div>
@@ -81,7 +119,7 @@
           <div class="order-lg-1">
             <div class="p-3">
               <h2 class="display-5">ExecThread</h2>
-              <p><a href="https://execthread.com/">ExecThread</a> | <a href="https://wordpress.com/">WordPress</a></p>
+              <p><a href="https://execthread.com/">ExecThread.com</a> | WordPress</p>
               <p>I was hired as a contractor to help ExecThread develop their public facing website. I worked with the lead designer, wireframing experience flows and creating mockups. I also worked with the lead frontend developer and refactored our code to be pixel perfect and flexible for future development.</p>
               <p class="text-center"><img class="img-fluid" src="img/execthread.png" alt="ExecThread screenshot"></p>
             </div>
@@ -94,7 +132,7 @@
         <div class="row align-items-center">
             <div class="p-3">
               <h2 class="display-5">Cappuccino Q&amp;A</h2>
-              <p><a href="http://rubyonrails.org/">Ruby on Rails</a> | <a href="https://www.heroku.com/">Heroku</a></p>
+              <p>Ruby on Rails | Heroku</p>
               <p>In grad school, I took an advanced data storage and management course where the professor had so much material to get through, he barely had time to answer student questions. The Cappuccino Q&amp;A app was my solution to that problem. Students can login to the app, ask their classmates questions about the lecture, and propose answers. Professors can login to see the most popular questions students had during each lecture.</p>
               <p class="text-center"><img class="img-fluid" src="img/capp.png" alt="Cappuccino Q&A screenshot"></p>
             </div>
@@ -135,7 +173,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-black text-white">
       <div class="container">
-        <p>The image <a href="#header">up top</a> was taken by <a href="https://unsplash.com/@mougrapher">Mourad Saadi</a>. It is one of my favorite photographs so I had to include it here. Everything else on this website was either created by me or sourced in bits from various corners of the internet.</p><p> &copy; Val Mack 2018</p>
+        <p>The image <a href="#header">up top</a> was taken by <a href="https://unsplash.com/@mougrapher">Mourad Saadi</a>.</p><p> &copy; Val Mack 2018</p>
       </div>
       <!-- /.container -->
     </footer>
