@@ -67,7 +67,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: auto;
+  background-size: cover;
 }
 
 header.masthead .masthead-content {
@@ -87,6 +87,7 @@ header.masthead .masthead-content .masthead-subheading {
   header.masthead {
     padding-top: calc(10rem + 55px);
     padding-bottom: 10rem;
+    background-size: auto;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
