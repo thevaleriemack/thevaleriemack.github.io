@@ -67,7 +67,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: auto;
 }
 
 header.masthead .masthead-content {
