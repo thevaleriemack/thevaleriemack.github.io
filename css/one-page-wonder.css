@@ -28,6 +28,14 @@ h6 {
   border-radius: 5rem;
 }
 
+nav {
+  transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+    top: -40px;
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
